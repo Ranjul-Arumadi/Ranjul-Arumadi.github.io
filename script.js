@@ -116,7 +116,7 @@ $(document).ready(function() {
   */
 
 	//alert(cday);
-	$( "."+cday ).css( {"border": "3px solid red"} );   //highlight req div acc to day
+	$( "."+cday ).css( {"border": "3px dashed red"} );   //highlight req div acc to day
 	$( "."+cday ).css("display:block");
 
 
