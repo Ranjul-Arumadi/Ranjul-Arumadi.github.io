@@ -1,0 +1,60 @@
+/*index.html*/
+#gmeetHeading{
+   font-family:Candara;
+   text-decoration:underline;
+}
+#mainTagline{
+  font-family:"Perpetua",sans-serif;
+}
+/* __BETA__ themechanger{
+background-color:black;
+color:white;
+}
+*/
+.indexBody{
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/*timetable.html*/
+.main{
+  background-color: black;
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-spacing: 0px;
+  border: 1px solid black;
+}
+td{
+  padding:5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Calibri,Geneva;
+}
+#TIME ,#SUBJECT{
+  font-size: 20px;
+  text-align: center;
+  font-family:helvetica;
+}
+h3{
+  font-family:Lucida Bright;
+  text-decoration: underline;
+}
+h2{
+  font-family: Garamond;
+  text-decoration: underline overline dotted #7AA79A;
+}
+
+
+#main .table1 { display:none;}
