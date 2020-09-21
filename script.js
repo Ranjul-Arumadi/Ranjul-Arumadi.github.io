@@ -1,3 +1,4 @@
+var n;
 function printdate()
 {
   var d = new Date();
@@ -10,7 +11,7 @@ function printdate()
   weekday[5] = "Friday";
   weekday[6] = "Saturday";
 
-  var n = weekday[d.getDay()];
+  n = weekday[d.getDay()];
   return n;
 
 }
