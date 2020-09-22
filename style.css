@@ -59,6 +59,11 @@ h2{
   font-family: Garamond;
   text-decoration: underline overline dotted #7AA79A;
 }
+.container
+{
+  background-color: #ffffff;
+}
+
 
 
 #main .table1 { display:none;}
