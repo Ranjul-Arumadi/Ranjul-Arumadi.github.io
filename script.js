@@ -31,7 +31,7 @@ $(document).ready(function() {
   //alert(temp);
   //alert(referencetime);
   console.log(referencetime);
-  setTimeout(function(){location.reload();},45000);    //reloads page
+  setTimeout(function(){location.reload();},55000);    //reloads page
 
 
   /*-----MONDAY-----*/
