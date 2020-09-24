@@ -26,8 +26,8 @@ $(document).ready(function() {
   //alert(temp);
   //alert(referencetime);
   console.log(referencetime);
-  setTimeout(function(){location.reload();},45000);    //reloads page
-  setTimeout(function(){location.reload();},55000);    //reloads page
+  //setTimeout(function(){location.reload();},45000);    //reloads page
+  setTimeout(function(){location.reload();},60000);    //reloads page
 
 
   /*-----MONDAY-----*/
@@ -52,21 +52,23 @@ $(document).ready(function() {
   //triggers for monday P4 10:50
   else if((39000-referencetime==0) && (temp=="Monday"))
   {
-    $("#Lab span").trigger("click");
+    $("#lab span").trigger("click");
     //alert("works");
   }
   //triggers for monday P5 11:40
   else if((42000-referencetime==0) && (temp=="Monday"))
   {
-    $("#Lab span").trigger("click");
+    //$("#Lab span").trigger("click");
     //alert("works");
   }
   //triggers for monday P6 12:30
   else if((45000-referencetime==0) && (temp=="Monday"))
   {
-    $("#Lab span").trigger("click");
+    //$("#Lab span").trigger("click");
     //alert("works");
   }
+
+
   /*-----Tuesday-----*/
   //trigger for Tuesday P1 8:20
   if((30000-referencetime==0) && (temp=="Tuesday"))
@@ -126,8 +128,8 @@ $(document).ready(function() {
   //triggers for Wednesday P4 10:50
   else if((39000-referencetime==0) && (temp=="Wednesday"))
   {
-    $("#Lab1 span").trigger("click");
-    $("#Lab2 span").trigger("click");
+    $("#Lab span").trigger("click");
+
     //alert("works");
   }
   //triggers for Wednesday P5 11:40
@@ -182,40 +184,40 @@ $(document).ready(function() {
     //alert("works");
   }
   /*-----Friday-----*/
-  //trigger for Friday P1 07:50
-  if((28200-referencetime==0) && (temp=="Friday"))
+  //trigger for Friday P1 07:50 28200
+  if((9840-referencetime==0) && (temp=="Friday"))
   {
-    $("#SE span").trigger("click");
+    $("#Extrafri span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P2 8:35
-  else if((30900-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P2 8:35 30900
+  else if((9960-referencetime==0) && (temp=="Friday"))
   {
     $("#Java span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P3 9:20
-  else if((33600-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P3 9:20 33600
+  else if((10080-referencetime==0) && (temp=="Friday"))
   {
     $("#DE span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P4 10:05
-  else if((36300-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P4 10:05 36300
+  else if((10200-referencetime==0) && (temp=="Friday"))
   {
     $("#DS span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P5 10:50
-  else if((39000-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P5 10:50 39000
+  else if((10320-referencetime==0) && (temp=="Friday"))
   {
-    $("#Minor span").trigger("click");
+    $("#DMS span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P6 11:35
-  else if((41700-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P6 11:35 41700
+  else if((10440-referencetime==0) && (temp=="Friday"))
   {
-    $("#Minor span").trigger("click");
+    $("#SE span").trigger("click");
     //alert("works");
   }
   /*-----Saturday-----*/
@@ -246,54 +248,22 @@ $(document).ready(function() {
   //triggers for Saturday P5 11:40
   else if((42000-referencetime==0) && (temp=="Saturday"))
   {
-    $("#Activity span").trigger("click");
+    $("#ExtraSat span").trigger("click");
     //alert("works");
   }
   //triggers for Saturday P6 12:30
   else if((45000-referencetime==0) && (temp=="Saturday"))
   {
-    $("#Activity span").trigger("click");
+    //$("#Extra span").trigger("click");
     //alert("works");
   }
-  /*if((30000-referencetime==0) && (temp=="Monday"))
-	{
-		$("#LSD span").trigger("click");
-		//alert("works");
-	}
-  //triggers for monday P2
-  else if((32400-referencetime==0) && (temp=="Monday"))
-	{
-		$("#DE span").trigger("click");
-		//alert("works");
-	}
-  //triggers for monday P3
-  else if((36000-referencetime==0) && (temp=="Monday"))
-  {
-    $("#Maths span").trigger("click");
-    //alert("works");
-  }
-  //triggers for monday P4
-  else if((39000-referencetime==0) && (temp=="Monday"))
-  {
-    $("#Lab1 span").trigger("click");
-    //alert("works");
-    $("#Lab2 span").trigger("click");
-    //alert("works");
-  }
-  //triggers for monday P5
-  else if((42000-referencetime==0) && (temp=="Monday"))
-  {
-    $("#Lab span").trigger("click");
-    //alert("works");
-  }
-  //triggers for monday P6
-  else if((45000-referencetime==0) && (temp=="Monday"))
-  {
-    $("#Lab span").trigger("click");
-    //alert("works");
-  }
-  */
-	//alert(cday);
+
+
+/* T E S T    P U R P O S E       C O D E
+
+*/
+
+  //alert(cday);
 	$( "."+cday ).css( {"border": "3px dashed red"} );   //highlight req div acc to day
 	$( "."+cday ).css("display:block");
   if(temp=="Thursday" || temp=="Friday" || temp=="Saturday")
