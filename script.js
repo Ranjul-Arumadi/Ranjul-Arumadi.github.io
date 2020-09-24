@@ -182,38 +182,38 @@ $(document).ready(function() {
     //alert("works");
   }
   /*-----Friday-----*/
-  //trigger for Friday P1 8:20
-  if((30000-referencetime==0) && (temp=="Friday"))
+  //trigger for Friday P1 07:50
+  if((28200-referencetime==0) && (temp=="Friday"))
   {
     $("#SE span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P2 9:10
-  else if((33000-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P2 8:35
+  else if((30900-referencetime==0) && (temp=="Friday"))
   {
     $("#Java span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P3 10:00
-  else if((36000-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P3 9:20
+  else if((33600-referencetime==0) && (temp=="Friday"))
   {
     $("#DE span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P4 10:50
-  else if((39000-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P4 10:05
+  else if((36300-referencetime==0) && (temp=="Friday"))
   {
     $("#DS span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P5 11:40
-  else if((42000-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P5 10:50
+  else if((39000-referencetime==0) && (temp=="Friday"))
   {
     $("#Minor span").trigger("click");
     //alert("works");
   }
-  //triggers for Friday P6 12:30
-  else if((45000-referencetime==0) && (temp=="Friday"))
+  //triggers for Friday P6 11:35
+  else if((41700-referencetime==0) && (temp=="Friday"))
   {
     $("#Minor span").trigger("click");
     //alert("works");
@@ -296,7 +296,7 @@ $(document).ready(function() {
 	//alert(cday);
 	$( "."+cday ).css( {"border": "3px dashed red"} );   //highlight req div acc to day
 	$( "."+cday ).css("display:block");
-  if(n>3)
+  if(temp=="Thursday" || temp=="Friday" || temp=="Saturday")
   {
     $('html,body').animate({ scrollTop: 9999 }, 'slow');   //scroll to bottom
   }
