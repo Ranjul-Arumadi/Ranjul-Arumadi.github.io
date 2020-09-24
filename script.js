@@ -364,11 +364,11 @@ $(document).ready(function() {
 	//alert(cday);
 	$( "."+cday ).css( {"border": "3px dashed red"} );   //highlight req div acc to day
 	$( "."+cday ).css("display:block");
-  if(n>3)
+  /*if(n>3)
   {
     $('html,body').animate({ scrollTop: 9999 }, 'slow');   //scroll to bottom
   }
-
+	/*
 
 
 
