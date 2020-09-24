@@ -1,4 +1,4 @@
-/*index.html*/
+/*-------------------------------------index.html-------------------------------------*/
 #gmeetHeading{
    font-family:Candara;
    text-decoration:underline;
@@ -23,7 +23,7 @@ color:white;
 .footer{
 	 color: white;
  }
-/*timetable.html*/
+/*---------------------------------------timetable.html-------------------------------------------------*/
 .main{
   background-color: black;
   background-image: url('bg.png');
@@ -67,3 +67,14 @@ h2{
 
 
 #main .table1 { display:none;}
+
+
+/*---------------------------------------------------extra class-----------------------------------------------*/
+
+
+.labbutton{
+  padding: 200px;
+}
+.extraclass{
+  padding: 200px; 
+}
