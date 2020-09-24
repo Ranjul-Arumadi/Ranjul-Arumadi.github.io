@@ -211,7 +211,7 @@ $(document).ready(function() {
   //triggers for Friday P5 10:50 39000
   else if((10320-referencetime==0) && (temp=="Friday"))
   {
-    $("#DMS span").trigger("click");
+    $("#Extrafri span").trigger("click");
     //alert("works");
   }
   //triggers for Friday P6 11:35 41700
