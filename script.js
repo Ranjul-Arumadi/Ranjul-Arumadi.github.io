@@ -185,37 +185,37 @@ $(document).ready(function() {
   }
   /*-----Friday-----*/
   //trigger for Friday P1 07:50 28200
-  if((9840-referencetime==0) && (temp=="Friday"))
+  if((28200-referencetime==0) && (temp=="Friday"))
   {
     $("#Extrafri span").trigger("click");
     //alert("works");
   }
   //triggers for Friday P2 8:35 30900
-  else if((9960-referencetime==0) && (temp=="Friday"))
+  else if((30900-referencetime==0) && (temp=="Friday"))
   {
     $("#Java span").trigger("click");
     //alert("works");
   }
   //triggers for Friday P3 9:20 33600
-  else if((10080-referencetime==0) && (temp=="Friday"))
+  else if((33600-referencetime==0) && (temp=="Friday"))
   {
     $("#DE span").trigger("click");
     //alert("works");
   }
   //triggers for Friday P4 10:05 36300
-  else if((10200-referencetime==0) && (temp=="Friday"))
+  else if((36300-referencetime==0) && (temp=="Friday"))
   {
     $("#DS span").trigger("click");
     //alert("works");
   }
   //triggers for Friday P5 10:50 39000
-  else if((10320-referencetime==0) && (temp=="Friday"))
+  else if((39000-referencetime==0) && (temp=="Friday"))
   {
     $("#Extrafri span").trigger("click");
     //alert("works");
   }
   //triggers for Friday P6 11:35 41700
-  else if((10440-referencetime==0) && (temp=="Friday"))
+  else if((41700-referencetime==0) && (temp=="Friday"))
   {
     $("#SE span").trigger("click");
     //alert("works");
