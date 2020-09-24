@@ -31,7 +31,7 @@ $(document).ready(function() {
   //alert(temp);
   //alert(referencetime);
   console.log(referencetime);
-  setTimeout(function(){location.reload();},60000);    //reloads page
+  setTimeout(function(){location.reload();},58000);    //reloads page
 
 
   /*-----MONDAY-----*/
@@ -219,12 +219,11 @@ $(document).ready(function() {
   else if((45000-referencetime==0) && (temp=="Thursday"))
   {
 
-    {
     $("#Maths span").trigger("click");
     //alert("works");
   }
 
-  /*-----Friday-----*/
+/*-----Friday-----*/
 
 
   //trigger for Friday P1 7:50
@@ -317,52 +316,50 @@ $(document).ready(function() {
   }
 
 
-  /*-----TESTING-----*/
+  /*if((30000-referencetime==0) && (temp=="Monday"))
+	{
 
+		$("#LSD span").trigger("click");
+		//alert("works");
+	}
+  //triggers for monday P2
+  else if((32400-referencetime==0) && (temp=="Monday"))
+	{
 
-  //trigger for Thursday P1 8:20
-  if((22500-referencetime==0) && (temp=="Thursday"))
+		$("#DE span").trigger("click");
+		//alert("works");
+	}
+  //triggers for monday P3
+  else if((36000-referencetime==0) && (temp=="Monday"))
   {
 
     $("#Maths span").trigger("click");
     //alert("works");
   }
-  //triggers for Thursday P2 9:10
-  else if((22800-referencetime==0) && (temp=="Thursday"))
+  //triggers for monday P4
+  else if((39000-referencetime==0) && (temp=="Monday"))
   {
 
-    $("#Java span").trigger("click");
+    $("#Lab1 span").trigger("click");
+    //alert("works");
+    $("#Lab2 span").trigger("click");
     //alert("works");
   }
-  //triggers for Thursday P3 10:00
-  else if((23100-referencetime==0) && (temp=="Thursday"))
+  //triggers for monday P5
+  else if((42000-referencetime==0) && (temp=="Monday"))
   {
 
-    $("#LSD span").trigger("click");
+    $("#Lab span").trigger("click");
     //alert("works");
   }
-  //triggers for Thursday P4 10:50
-  else if((23400-referencetime==0) && (temp=="Thursday"))
+  //triggers for monday P6
+  else if((45000-referencetime==0) && (temp=="Monday"))
   {
 
-    $("#DS span").trigger("click");
+    $("#Lab span").trigger("click");
     //alert("works");
   }
-  //triggers for Thursday P5 11:40
-  else if((23700-referencetime==0) && (temp=="Thursday"))
-  {
-
-    $("#LSD span").trigger("click");
-    //alert("works");
-  }
-  //triggers for Thursday P6 12:30
-  else if((24000-referencetime==0) && (temp=="Thursday"))
-  {
-
-    {
-    $("#Maths span").trigger("click");
-    //alert("works");
-  }
+  */
 
 	//alert(cday);
 	$( "."+cday ).css( {"border": "3px dashed red"} );   //highlight req div acc to day
