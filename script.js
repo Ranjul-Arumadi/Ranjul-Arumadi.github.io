@@ -187,7 +187,7 @@ $(document).ready(function() {
   //trigger for Friday P1 07:50 28200
   if((28200-referencetime==0) && (temp=="Friday"))
   {
-    $("#Extrafri span").trigger("click");
+    $("#SE span").trigger("click");
     //alert("works");
   }
   //triggers for Friday P2 8:35 30900
@@ -217,7 +217,7 @@ $(document).ready(function() {
   //triggers for Friday P6 11:35 41700
   else if((41700-referencetime==0) && (temp=="Friday"))
   {
-    $("#SE span").trigger("click");
+    //$("#Extrafri span").trigger("click");
     //alert("works");
   }
   /*-----Saturday-----*/
