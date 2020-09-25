@@ -15,7 +15,7 @@ function printdate()
 }
 temp=printdate();
 //alert("Welcome to Auto Class Launcher.\n----------------------------------------\nToday is "+printdate()+"."+"\n\nKEEP THIS TAB OPEN IN THE BACKGROUND to auto launch Google Meets according to your timetable.\n\nHave a great day ahead :)")
-//alert("working");
+alert("Apologies, unable to implement all the updates in todays timetable");
 $(document).ready(function() {
     var today = new Date();
     var cHour = today.getHours();
