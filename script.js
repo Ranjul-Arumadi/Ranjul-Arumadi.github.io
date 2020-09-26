@@ -225,13 +225,13 @@ $(document).ready(function() {
   //trigger for Saturday P1 8:20
   if((30000-referencetime==0) && (temp=="Saturday"))
   {
-    $("# span").trigger("click");
+    //$("# span").trigger("click");
     //alert("works");
   }
   //triggers for Saturday P2 9:10
   else if((33000-referencetime==0) && (temp=="Saturday"))
   {
-    $("# span").trigger("click");
+    //$("# span").trigger("click");
     //alert("works");
   }
   //triggers for Saturday P3 10:00
@@ -243,7 +243,7 @@ $(document).ready(function() {
   //triggers for Saturday P4 10:50
   else if((39000-referencetime==0) && (temp=="Saturday"))
   {
-    $("#Activity span").trigger("click");
+   // $("#Activity span").trigger("click");
     //alert("works");
   }
   //triggers for Saturday P5 11:40
